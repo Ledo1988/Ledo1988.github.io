@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="35"
+   height="35"
+   viewBox="126.445 2.281 8.246 8.246"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="icon-facebook.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata12">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.0944"
+     inkscape:cx="1250"
+     inkscape:cy="1250"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <g
+     id="g16"
+     transform="matrix(0.014,0,0,0.014,124.67477,2.2490659)">
+    <circle
+       id="circle2"
+       r="294.5"
+       cy="296.78101"
+       cx="420.94501"
+       style="fill:#3c5a9a" />
+    <path
+       id="path4"
+       d="m 516.704,92.677 h -65.239 c -38.715,0 -81.777,16.283 -81.777,72.402 0.189,19.554 0,38.281 0,59.357 H 324.9 v 71.271 h 46.174 v 205.177 h 84.847 V 294.353 h 56.002 l 5.067,-70.117 h -62.531 c 0,0 0.14,-31.191 0,-40.249 0,-22.177 23.076,-20.907 24.464,-20.907 10.981,0 32.332,0.032 37.813,0 V 92.677 Z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff" />
+  </g>
+</svg>
