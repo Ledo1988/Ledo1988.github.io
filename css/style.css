@@ -282,7 +282,7 @@ h1 {
   color:#1ba49c;
 }
 
-.extra-navigation li:first-child {
+.current-page-footer  {
   border-bottom: 1px dotted #1ba49c;
 }
 
@@ -319,4 +319,39 @@ h1 {
 
 .triangle:hover path, .triangle:focus g {
   fill: #2a3b4e;
+}
+
+/*Portfolio.html*/
+
+.portfolio {
+  margin: 15px 0;
+}
+
+.portfolio-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.view {
+  position: relative;
+}
+
+.img-hidden {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #3c444b;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+
+.view:hover > .img-hidden,
+.img-hidden:hover {
+  display: block;
 }
