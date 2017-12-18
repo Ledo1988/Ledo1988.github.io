@@ -73,7 +73,6 @@ a:active,
   padding: 0;
   padding-left: 10px;
   padding-bottom: 10px;
-
 }
 
 nav {
@@ -319,6 +318,15 @@ h1 {
 
 .triangle:hover path, .triangle:focus g {
   fill: #2a3b4e;
+}
+
+.main-header-logo a {
+  padding: 0;
+  margin: 0;
+}
+
+.main-header-logo a:active {
+  border-bottom: none;
 }
 
 /*Portfolio.html*/

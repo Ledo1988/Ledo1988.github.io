@@ -13,14 +13,14 @@
    <div class="container">
      <header class="main-header">
        <div class="main-header-logo">
-         <img src="img/icon-logo.png" width="110" height="98" alt="Логотип">
+         <a href="index.html"><img src="img/icon-logo.png" width="110" height="98" alt="Логотип"></a>
        </div>
        <nav>
          <ul class="site-navigation">
            <li><a href="index.html">Главная</a></li>
            <li><a href="portfolio.html">Портфолио</a></li>
-           <li><a class="current-page" href="about.html">Обо мне</a></li>
-           <li><a href="contacts.html">Контакты</a></li>
+           <li><a href="about.html">Обо мне</a></li>
+           <li><a class="current-page" href="contacts.html">Контакты</a></li>
          </ul>
        </nav>
      </header>
@@ -28,38 +28,24 @@
        <h1>HTML-верстальщик, Санкт-Петербург</h1>
        <section class="aboutme">
          <h2>Елена Долбня</h2>
-         <div class="about-first">
-           <img src="img/about-1.png" width="263" height="350" alt="Портрет">
-           <p>В 2010 году окончила Санкт-Петербургский государственный инженерно-экономический университет по профессии "Социально-культурный сервис и туризм".
-             С 2008 года работаю в международной туристской компании Tumlare Corporation A/S, занимающейся приёмом иностранных туристов в России.
-             Также в 2011 году проходила практику по специальности в городе Гамбург. В рамках стажировки занималась администрированием сайта школы иностранных языков <a href="https://www.interact-experts.com/en/index/" target="_blank">Sprachschule interact!</a>.
-             В мою работу входило изучение особенностей разработки и поддержки веб-сайта: написание простого HTML кода, формирование новых информационных блоков.
-           </p>
-          </div>
-          <p> В 2017 году успешно окончила и защитила дипломный проект на интенсиве "Базовый HTML и CSS" от <a href="https://htmlacademy.ru/" target="_blank">HTML Academy</a>.
-            Создаю валидную, кроссбраузерную вёрстку для веб-сайтов.
-            Стараюсь тщательно продумывать код и делать его семантичным.
-            Пополнила свои знания HTML5, CSS3, а также нативного JavaScript.
-            Умею работать в команде и использовать git.
-            Знакома с CSS-препроцессором Less, а также фреймворком Bootstrap.
-            Умею работать с графическими редакторами Adobe Photoshop CC, CorelDraw, Inkscape.
-            Сайты верстаю и стилизую согласно PixelPerfect, полное соответствие макету.
-            Код сайта единообразно форматирую и минимизирую.</p>
-         <div class="about-last">
-           <ul class="about-list">
-             <li>Владею языками:
-               <ul>
-                 <li>русский,</li>
-                 <li>английский – средний (разговорный и письменный) достаточный для работы с технической документацией,</li>
-                 <li>немецкий средний (разговорный и письменный).</li>
-               </ul>
-             </li>
-             <li>В работе всегда стремлюсь к лучшим результатам и исполнению задач в срок. Легко обучаюсь. Ответственный, коммуникабельный, инициативный, пунктуальный, аккуратный сотрудник.</li>
-             <li>Планирую посвятить себя изучению и работе во frontend-разработке сайтов. Стремлюсь максимально совершенствовать свой навык, поэтому продолжаю обучение на "Продвинутом" курсе HTML Academy.</li>
-             <li>Всё свободное время посвящаю своей семье. Также увлекаюсь шитьём и вязанием. Люблю смотреть хорошее кино и путешествовать.</li>
-            </ul>
-           <img src="img/about-2.png" width="503" height="350" alt="Семья">
-        </div>
+         <form class="question" action="https://echo.htmlacademy.ru" method="post">
+                <p>
+                  <label for="question-name">
+                    <input id="question-name" type="text" name="username" placeholder="Как Вас зовут?">
+                  </label>
+                </p>
+                <p>
+                  <label for="question-email">
+                    <input id="question-email" type="email" name="email" placeholder="Ваша почта для ответа?">
+                  </label>
+                </p>
+                <p>
+                  <label for="question-comment">
+                    <textarea id="question-comment" name="comment" rows="5" placeholder="Напишите что-нибудь..."></textarea>
+                  </label>
+                </p>
+                <button type="submit">Отправить</button>
+              </form>
        </section>
       </main>
     </div>
@@ -295,8 +281,8 @@
           <ul class="extra-navigation">
             <li><a href="index.html" title="Главная">Главная</a></li>
             <li><a href="portfolio.html" title="Портфолио Елены Долбня">Портфолио</a></li>
-            <li><a class="current-page-footer" href="about.html" title="Обо мне">Обо мне</a></li>
-            <li><a href="contacts.html" title="Для связи">Контакты</a></li>
+            <li><a href="about.html" title="Обо мне">Обо мне</a></li>
+            <li><a class="current-page-footer" href="contacts.html" title="Для связи">Контакты</a></li>
           </ul>
         </div>
         <p class="footer-copyright">
