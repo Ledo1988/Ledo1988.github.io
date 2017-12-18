@@ -326,7 +326,7 @@ h1 {
 }
 
 .main-header-logo a:active {
-  border-bottom: none;
+  border-bottom: 0px;
 }
 
 /*Portfolio.html*/
